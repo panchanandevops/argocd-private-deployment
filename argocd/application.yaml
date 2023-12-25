@@ -11,8 +11,6 @@ spec:
     repoURL: git@github.com:panchanandevops/argocd-private.git
     targetRevision: HEAD
     path: web-app/environments/apps
-    credentials:
-      secretName: my-ssh-key-secret
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
