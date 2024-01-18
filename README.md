@@ -1,4 +1,4 @@
-# argocd-private
+# argocd-private-deployment 
 
 use this command for giving permission to minikube for pulling private docker image on dev namespace 
 ```bash
